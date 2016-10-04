@@ -4,7 +4,7 @@ import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.*;
 class Employee extends Person{
-	private Date hireDay;
+	private String hireDay;
 	private double salary;
 	public Employee(String n, double s, int year, int month, int day,String address,int age) {
 	    name = n;
