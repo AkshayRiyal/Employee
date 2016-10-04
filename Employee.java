@@ -2,7 +2,7 @@ package superClassExtract;
 
 import java.util.Date;
 import java.util.GregorianCalendar;
-
+import java.util.*;
 class Employee extends Person{
 	private Date hireDay;
 	private double salary;
